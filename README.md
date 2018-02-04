@@ -2,6 +2,9 @@
 
 [![Join the chat at https://gitter.im/azkaban-workflow-engine/Lobby](https://badges.gitter.im/azkaban-workflow-engine/Lobby.svg)](https://gitter.im/azkaban-workflow-engine/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+## 中文
+##### 请参考：[中文](https://github.com/zipingdong/azkaban/READMECN.md)
+
 ## Build
 Azkaban builds use Gradle and requires Java 8 or higher.
 
@@ -33,7 +36,7 @@ Check out the source code corresponding to that tag.
 e.g.
 
 `
-git checkout 3.30.1
+git checkout 3.40.0
 `
 
 Build 
