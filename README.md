@@ -3,7 +3,7 @@
 [![Join the chat at https://gitter.im/azkaban-workflow-engine/Lobby](https://badges.gitter.im/azkaban-workflow-engine/Lobby.svg)](https://gitter.im/azkaban-workflow-engine/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## 中文
-##### 请参考：[中文](https://github.com/zipingdong/azkaban/READMECN.md)
+##### 请参考：[中文](https://github.com/zipingdong/azkaban/blob/master/READMECN.md)
 
 ## Build
 Azkaban builds use Gradle and requires Java 8 or higher.
