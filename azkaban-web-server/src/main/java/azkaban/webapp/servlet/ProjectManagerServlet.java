@@ -793,10 +793,6 @@ public class ProjectManagerServlet extends LoginAbstractAzkabanServlet {
 
         final ArrayList<Map<String, Object>> nodeList = new ArrayList<>();
         for (final Node node : flow.getNodes()) {
-            // 自动生成的叶子节点不在前端显示
-            if ("leaf_job".equals(node.getId()))
-                continue;
-
             final HashMap<String, Object> nodeObj = new HashMap<>();
             nodeObj.put("id", node.getId());
             nodeObj.put("type", node.getType());
@@ -1985,7 +1981,7 @@ public class ProjectManagerServlet extends LoginAbstractAzkabanServlet {
         HashMap<String, String> ret = new HashMap<String, String>();
         String projectName = getParam(req, "project");
         String jobName = getParam(req, "job");
-        
+
         User user = session.getUser();
         Project project = projectManager.getProject(projectName);
 
